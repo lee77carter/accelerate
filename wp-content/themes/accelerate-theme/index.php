@@ -19,7 +19,7 @@ get_header(); ?>
 	<section class="blog-page">
 		<div class="site-content">
 			<div class="main-content">
-				
+	<pre><?php print_r($wp_query); exit; ?></pre>			
 				<?php
 			if ( have_posts() ) :
 				// Start the Loop.

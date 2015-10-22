@@ -430,6 +430,7 @@ hr {
 	background: #24890d;
 	color: #fff;
 	text-shadow: none;
+	
 }
 
 /**
@@ -478,7 +479,7 @@ h1 {
 }
 
 #masthead {
-    background: none repeat scroll 0 0 #333;
+    background: none repeat scroll 0 0 #45ac9d;
     color: white;
     height: 30px;
     padding: 10px 0;
@@ -657,6 +658,30 @@ aside.sidebar {
 	border-bottom: 1px solid #bfbfbf;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
+}
+
+.blog-post h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.blog-post {
+	width: 50%;
+}
+
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+.blog-post .read-more-link {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
 }
 .entry-title {
 	margin: 0.25em 0;
@@ -1205,7 +1230,7 @@ section .navigation {
 }
 
 .button {
-    background: none repeat scroll 0 0 #333;
+    background: none repeat scroll 0 0 #45ac9d;
     color: white;
     font-family: "montserrat";
     font-size: 20px;
@@ -1217,3 +1242,4 @@ section .navigation {
 a.button, a.button:link {
 	color:white;
 }
+
