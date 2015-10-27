@@ -1,9 +1,9 @@
 /*
  Theme Name:   Accelerate Theme Child
- Theme URI:    http://example.com/accelerate-theme-child/
+ Theme URI:    http://accelerate.com/accelerate-theme-child/
  Description:  Accelerate Child Theme - Accelerate
- Author:       Your Name!
- Author URI:   http://example.com
+ Author:       Lee Carter
+ Author URI:   http://leandrac.com
  Template:     accelerate-theme
  Version:      1.0.0
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -1255,4 +1255,33 @@ section .navigation {
 a.button, a.button:link {
 	color:white;
 }
+
+
+/* Case Studies */
+
+article.case-study {
+	margin:40px 0 0;
+}
+aside.case-study-sidebar {
+	float: left;
+	width: 300px;
+	margin: 20px;
+}
+
+div.case-study-images {
+	float: left;
+	width: 500px;
+}
+
+div.case-study-images img {
+	display:block;
+	margin-bottom:50px;
+	border:1px solid #dddddd;
+}
+
+
+	
+
+
+
 
