@@ -39,6 +39,5 @@ get_header(); ?>
 		</div>
 	</div>
 </section>
-<!-- <pre><?php print_r($wp_query->posts); exit; ?></pre> -->
 
 <?php get_footer(); ?>
