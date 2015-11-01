@@ -1279,23 +1279,28 @@ div.case-study-images img {
 	border:1px solid #dddddd;
 }
 
+/* Entire Homepage Featured Work Section */	
 ul.homepage-featured work {
-	display: inline-block;
+	display: inline;
     margin: 0 auto;
     max-width: initial;
+    font-family: inherit;
 }
 
+/* Section With Aligned Images */	
 li.individual-featured-work {
 	display: inline-block;
     margin: 0 auto;
     max-width: initial;
     padding: 5px;
 }
-	
-.featured-work {
-	display:inline-block;
-	margin:0;
-	font-family: "montserrat";
+
+/* Entire Featured Work Section */	
+section.featured-work {
+	display:inline;
+	margin:0 auto;
+    max-width: initial;
+	text-align: center;
 }
 
 
