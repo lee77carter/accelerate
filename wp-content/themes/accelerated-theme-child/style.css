@@ -29,13 +29,12 @@ article,
 aside,
 details,
 figcaption,
-figure,
 footer,
 header,
 hgroup,
 nav,
 section {
-	display: block;
+    display:block;
 }
 
 audio,
@@ -444,7 +443,8 @@ hr {
 }
 
 a, a:link, a:hover {
-	color:#333;
+	color: #454545;
+	font-weight:lighter;
 }
 
 .accent {
@@ -1279,9 +1279,24 @@ div.case-study-images img {
 	border:1px solid #dddddd;
 }
 
+ul.homepage-featured work {
+	display: inline-block;
+    margin: 0 auto;
+    max-width: initial;
+}
 
-
+li.individual-featured-work {
+	display: inline-block;
+    margin: 0 auto;
+    max-width: initial;
+    padding: 5px;
+}
 	
+.featured-work {
+	display:inline-block;
+	margin:0;
+	font-family: "montserrat";
+}
 
 
 
