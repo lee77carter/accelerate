@@ -615,6 +615,7 @@ aside.sidebar {
 	padding-bottom: 37px;
 	padding-top: 40px;
 }
+
 .top-logo {
 	color: inherit;
 	float: left;
@@ -1198,7 +1199,6 @@ section .navigation {
 /* Homepage Styles */
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-
 }
 
 .homepage-hero {
@@ -1303,7 +1303,11 @@ section.featured-work {
 	text-align: center;
 }
 
-/* Contact Page */
+.page.hfeed.site {
+
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
 
 
 

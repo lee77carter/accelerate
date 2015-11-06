@@ -21,7 +21,7 @@
 				</div>
 				
 			<nav class="social-media-navigation" role="navigation">
-				<?php wp_nav_menu( array( 'theme_location' => 'social-media', 'menu_class' => 'social-media-menu' ) ); ?>
+				<?php //wp_nav_menu( array( 'theme_location' => 'social-media', 'menu_class' => 'social-media-menu' ) ); ?>
 			</nav>
 
 				
@@ -29,6 +29,10 @@
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
 
-	<?php wp_footer(); ?>
+	<?php get_footer(); ?>
+	<p style="text-align: center;"><img src="http://localhost:8888/accelerate/wp-content/uploads/2015/11/twitter-icon.png">
+	<img src="http://localhost:8888/accelerate/wp-content/uploads/2015/11/facebook-icon.png">
+	<img src="http://localhost:8888/accelerate/wp-content/uploads/2015/11/linkedin-icon.png">
+	
 </body>
 </html>
