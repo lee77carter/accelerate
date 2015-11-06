@@ -295,7 +295,7 @@ img {
 	vertical-align: middle;
 }
 
-figure {
+t {
 	margin: 0;
 }
 
@@ -437,10 +437,6 @@ hr {
  *
  * -----------------------------------------------------------------------------
  */
-
-#page {
-	padding:0;
-}
 
 a, a:link, a:hover {
 	color: #454545;
@@ -1179,6 +1175,46 @@ textarea.warning,
 	font-size: 0.76em;
 }
 
+label#ninja_forms_field_1_label {
+	display:inline-block;	
+	float: left;
+}
+
+input#ninja_forms_field_1.ninja-forms-field {
+	display:inline;
+	width: 250px;
+    margin: auto;
+    padding: 0 10px;
+    float: left;
+}
+
+label#ninja_forms_field_2_label {
+	display:inline;	
+}
+
+input#ninja_forms_field_2.ninja-forms-field.email {
+	display:inline;
+	width: 250px;
+    margin: auto;
+    padding: 0 10px;
+    float: 0;
+}
+
+label#ninja_forms_field_3_label {
+	display:inline;	
+}
+
+textarea#ninja_forms_field_3.ninja-forms-field {
+	display:inline;
+}
+
+input#ninja_forms_field_5.ninja-forms-field {
+	display:inline;
+}
+
+
+
+
 /* CONFIRMATION */
 .confirmation-wrap {
 	text-align: center;
@@ -1301,21 +1337,41 @@ section.featured-work {
 	margin:0 auto;
     max-width: initial;
 	text-align: center;
+} 
+
+img.alignright { 
+	float: right; margin: 0 0 1em 1em; 
 }
 
-/* .page.hfeed.site {
+img.alignleft { 
+	float: left; margin: 0 1em 1em 0; 
+	
+}
 
+img.aligncenter { 
+	display: block; margin-left: auto; margin-right: auto; 
+	
+}
+
+.alignright { 
+	float: right; 
+}
+
+.alignleft { 
+	float: left; 
+	
+}
+
+.aligncenter { 
+	display: block; margin-left: auto; margin-right: auto; 
+
+}
+
+#page.about-hfeed.site {
+    padding: 0;
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-} */
-
-img.alignright { float: right; margin: 0 0 1em 1em; }
-img.alignleft { float: left; margin: 0 1em 1em 0; }
-img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
-.alignright { float: right; }
-.alignleft { float: left; }
-.aligncenter { display: block; margin-left: auto; margin-right: auto; }
-
-
+    height: 300px;
+}
 
 
 

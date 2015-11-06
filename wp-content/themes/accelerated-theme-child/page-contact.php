@@ -12,19 +12,18 @@
  * @since Accelerate Theme 1.1
  */
 
-
 get_header(); ?>
 
-    <div id="page" class="about-hfeed site"> 
-	  <div id="primary" class="site-content">
+	<div id="contact" class="site-content">
 		<div id="content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_header(); ?>
-				<?php the_content(); ?>			 
-					<p style="text-align: center;"><strong> Interested in working with us? </strong> <a class="button" href="<?php echo home_url(); ?>/contact">Contact Us</a>
+				<?php the_content(); ?>
+					<p style="text-align: right;"><a class="button" href="<?php echo home_url(); ?>/contact">Send</a>
 			<?php endwhile; // end of the loop. ?>
+
 		</div><!-- #content -->
 	</div><!-- #primary -->
-</div>
+
 
 <?php get_footer(); ?>
