@@ -20,7 +20,7 @@ get_header(); ?>
 				<?php get_header(); ?>
 				<h2><?php the_title(); ?></h2>
 				<?php the_content(); ?>
-				<p style="text-align: center;"><a class="button" href="<?php echo home_url(); ?>/blog">Contact Us</a>
+				<p style="text-align: center;"><strong> Interested in working with us?</strong>  <a class="button" href="<?php echo home_url(); ?>/blog">Contact Us</a>
 			<?php endwhile; // end of the loop. ?>
 
 		</div><!-- #content -->
