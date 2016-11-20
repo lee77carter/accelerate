@@ -21,10 +21,12 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_header(); ?>
 				<?php the_content(); ?>			 
-					<p style="text-align: center;"><strong> Interested in working with us? </strong> <a class="button" href="<?php echo home_url(); ?>/contact">Contact Us</a>
+				
+			</div><!-- #content -->
 			<?php endwhile; // end of the loop. ?>
-		</div><!-- #content -->
-	</div><!-- #primary -->
-</div>
+		
 
-<?php get_footer(); ?>
+	</div><!-- #primary -->
+</div><!--#page -->
+
+

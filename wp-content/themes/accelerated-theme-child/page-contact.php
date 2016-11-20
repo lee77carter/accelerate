@@ -19,11 +19,10 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_header(); ?>
 				<?php the_content(); ?>
-					<p style="text-align: right;"><a class="button" href="<?php echo home_url(); ?>/contact">Send</a>
+					<p style="text-align: right;"><a class="button" href="<?php echo home_url(); ?>/contact">Send</a></p>
+		
 			<?php endwhile; // end of the loop. ?>
-
+			
 		</div><!-- #content -->
 	</div><!-- #primary -->
-
-
 <?php get_footer(); ?>
